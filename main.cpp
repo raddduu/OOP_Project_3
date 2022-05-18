@@ -236,47 +236,6 @@ void zoo_manager::set_salary(int s)
     salary = s;
 }
 
-class Alarm{
-public:
-	void alarmOn()
-	{
-		std::cout << "Alarm is on and house is secured\n";
-	}
-
-	void alarmOff()
-	{
-		std::cout << "Alarm is off and you can go into the house\n";
-	}
-};
-
-class Ac
-{
-public:
-	void acOn()
-	{
-		std::cout << "Ac is on\n";
-	}
-
-	void acOff()
-	{
-		std::cout << "AC is off\n";
-	}
-};
-
-class Tv
-{
-public:
-	void tvOn()
-	{
-		std::cout << "Tv is on\n";
-	}
-
-	void tvOff()
-	{
-		std::cout << "TV is off\n";
-	}
-};
-
 class zoo_facade{
 public:
 	void feed(std::string food)
